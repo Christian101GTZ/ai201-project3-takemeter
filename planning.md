@@ -286,4 +286,17 @@ This project aims to classify r/Games posts into four categories:
 - Review_Critique
 - Discussion
 
-The final dataset contains 200 manually labeled examples with an even distribution across all categories. The next phase of the project is to compare a zero-shot Groq baseline against a fine-tuned DistilBERT classifier and evaluate how well the model learns these distinctions.
+The final dataset contains 200 manually labeled examples with an even distribution across all categories. The next phase of the project is to compare a zero-shot Groq baseline against a fine-tuned DistilBERT classifier and evaluate how well the model learns these distinctions. 
+
+
+# Milestone 4 — Baseline Results
+
+The zero-shot baseline achieved 80% accuracy on the test set.
+
+The model performed best on **Announcement** and **Industry_News**, showing that these categories have clear and recognizable language patterns.
+
+The model struggled most with **Discussion**, which had the lowest F1-score. Many Discussion posts were incorrectly classified as other categories. This may be because Discussion posts cover a wide variety of topics and writing styles, making them harder to identify consistently.
+
+**Hypothesis:** Fine-tuning DistilBERT on my labeled r/Games dataset will improve performance, especially for the Discussion category, by helping the model learn community-specific language patterns and distinctions between labels.
+
+These baseline results will be used as the benchmark for evaluating the fine-tuned model. 

@@ -300,3 +300,9 @@ The model struggled most with **Discussion**, which had the lowest F1-score. Man
 **Hypothesis:** Fine-tuning DistilBERT on my labeled r/Games dataset will improve performance, especially for the Discussion category, by helping the model learn community-specific language patterns and distinctions between labels.
 
 These baseline results will be used as the benchmark for evaluating the fine-tuned model. 
+
+## Milestone 5 Reflection
+
+The fine-tuned DistilBERT model achieved 53.3% accuracy, while the Groq zero-shot baseline achieved 80.0% accuracy.
+
+Although the fine-tuned model did not outperform the baseline, the results revealed that Discussion and Review_Critique were much harder to separate than expected. This suggests that future iterations would benefit from additional training examples and clearer distinctions between evaluation-focused posts and community discussion posts.

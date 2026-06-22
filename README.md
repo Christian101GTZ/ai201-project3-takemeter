@@ -185,15 +185,12 @@ The baseline model performed better across all categories. The fine-tuned model 
 
 ## Confusion Matrix
 
-![Confusion Matrix](Assets/confusion_matrix.png)
-
 | True \ Predicted | Industry_News | Announcement | Review_Critique | Discussion |
-| ---------------- | ------------- | ------------ | --------------- | ---------- |
-| Industry_News    | 5             | 0            | 3               | 0          |
-| Announcement     | 0             | 7            | 0               | 0          |
-| Review_Critique  | 3             | 0            | 5               | 0          |
-| Discussion       | 1             | 0            | 5               | 1          |
-
+|------------------|--------------|--------------|-----------------|------------|
+| Industry_News | 5 | 0 | 3 | 0 |
+| Announcement | 0 | 7 | 0 | 0 |
+| Review_Critique | 3 | 0 | 5 | 0 |
+| Discussion | 1 | 0 | 5 | 1 |
 ### Analysis
 
 The model correctly classified all Announcement posts.
